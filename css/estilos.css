@@ -37,6 +37,11 @@ strong {
   font-weight: bold;
   letter-spacing: 2px;
   margin-top: 11px;
+  transition: all linear 0.3s;
+}
+
+.buttom:active {
+  transform: scale(0.8);
 }
 
 .Header {
@@ -60,6 +65,11 @@ strong {
 .Header__nav li {
   display: inline;
   list-style: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.Header__nav li:hover {
+  color: #1D957F;
 }
 
 .Main {
