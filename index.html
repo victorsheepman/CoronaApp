@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>CoronaAPP</title>
 
 </head>
@@ -23,6 +25,20 @@
                 <li>CONTACTENOS</li>
             </ul>
         </nav>
+        <figure class="Header__hamburguer" id="hamburguer">
+            <img src="imagenes/Hamburguer.svg" alt="">
+        </figure>
+        <div class="modal" id="modal">
+            <img src="imagenes/Hamburguer.svg" alt="" id="modalimg">
+            <nav class="modal__nav">
+                <ul>
+                    <li>INICIO</li>
+                    <li>CARACTERISTICAS</li>
+                    <li>APOYO</li>
+                    <li>CONTACTENOS</li>
+                </ul>
+            </nav>
+        </div>
    </header>
    <section class="Main">
        <div class="Main__cuerpo">
@@ -39,6 +55,162 @@
         <figure class="Main__image">
            <img src="imagenes/Doctor Image.png" alt="">
         </figure>
+        <div class="Main__play">
+            <img src="imagenes/Play.png" alt="">
+            <p>Ver video</p>
+        </div>
    </section>
+   <section class="Descripcion">
+       <div class="App">
+           <div class="App__Body">
+               <div class="App__Body--circulo">
+                    <img src="imagenes/mujer.svg" alt="">
+               </div>
+               <h3>Enfermedad por el<br> nuevo coronavirus</h3>
+               <p>La COVID-19 afecta de distintas<br> maneras en función de cada persona.</p>
+           </div>
+           <div class="Options">
+               <div class="Options__circulo">
+                   <div class="Options__circulo--gris"></div>
+               </div>
+               <div class="Options__circulo">
+                   <div class="Options__circulo--verde"></div> 
+               </div>
+               <div class="Options__circulo">
+                   <div class="Options__circulo--gris"></div>
+               </div>
+           </div>
+       </div>
+       <div class="Mensaje">
+           <div class="Mensaje__content">
+               <h1>Mantente seguro<br> con <strong>Coronapp.</strong></h1>
+               <p>
+                Soporte 24x7 y plataforma móvil fácil de usar para<br> llevar la atención médica a su alcance. Regístrese y sea<br> parte de la nueva cultura de la salud.
+               </p>
+           </div>
+           <button class="buttom">EMPEZAR</button>
+       </div>
+   </section>
+   <section class="Apoyo"> 
+       <div class="Estadisticas">
+           <div class="Estadisticas__cuadrado--small"></div>
+           <div class="Estadisticas__cuadrado--medium"></div>
+           <div class="Estadisticas__cuadrado--big"></div>
+           <div class="Numeros">
+               <div class="Numeros__content">
+                   <div class="Numeros__titulo">
+                       <h2>2m</h2>
+                       <span>Usuarios</span>
+                   </div>
+               </div>
+               <div class="Numeros__content">
+                <div class="Numeros__titulo">
+                    <h2>78</h2>
+                    <span>Países</span>
+                </div>
+            </div>
+            <div class="Numeros__content">
+                <div class="Numeros__titulo">
+                    <h2>10,000+</h2>
+                    <span>Expertos medicos</span>
+                </div>
+            </div>
+           </div>
+       </div>
+       <div class="Apoyo__seccion">
+           <article class="Experto">
+               <div class="Experto__content">
+                   <h1> Habla con los<br>
+                        <strong>expertos.</strong>
+                    </h1>
+                    <p>Reserve citas o envíe consultas a miles de foros sobre<br> problemas de salud y prevención contra el Corona<br> Virus.</p>
+               </div>
+               <button class="buttom" style="margin-top: 16px;">Caracteristicas</button>
+           </article>
+           <div class="video">
+               <figure class="video__imagen">
+                    <img src="imagenes/Doctores.svg" alt="" class="video__img">
+                    <img src="imagenes/Play.png" alt="" class="video__img--play">
+               </figure>
+           </div>
+        </div>
+   </section>
+   <section class="Contactenos">
+       <div class="Contactenos__cabecera">
+            <div class="Contactenos__titulo">
+                <h1><strong>Cuidado de la salud </strong><br>
+                    al alcance de tu mano.
+                </h1>
+                <p>Llevando funciones de atención médica premium a tu alcance.</p>
+            </div>
+       </div>
+       <div class="Contactenos__articulos">
+           <div class="contenido">
+               <div class="contenido__cuadrado__big"></div>
+               <div class="contenido__cuadrado__small"></div>
+               <article class="Articulo">
+                   <div class="Articulo__container">
+                       <figure class="Articulo__imagen">
+                           <img src="imagenes/VectorVector_persona.svg" alt="" class="Articulo__img">
+                       </figure>
+                       <div class="Articulo__titulo">
+                           <h3>Comprobador de síntomas</h3>
+                           <p>Compruebe si está infectado por<br>
+                              COVID-19 con nuestro Comprobador<br> 
+                              de síntomas
+                            </p>
+                       </div>
+                   </div>
+               </article>
+            </div>
+            <article class="SegundoArticulo">
+                <figure class="SegundoArticulo__image">
+                    <img src="imagenes/VectorEnfermeta.svg" alt="">
+                </figure> 
+                <div class="SegundoArticulo__titulo">
+                    <h3>Soporte médico 24x7</h3>
+                    <p>
+                        Consulte con más de 10,000<br> trabajadores de la salud acerca de<br> sus inquietudes.
+                    </p>
+                </div>
+            </article>
+            <div class="cuadro__big"></div>
+            <div class="cuadro__small"></div>
+            <article class="TercerArticulo">
+                <div class="TercerArticulo__container">
+                    <figure class="TercerArticulo__imagen">
+                        <img src="/imagenes/Vectorheart.svg" alt="">
+                    </figure>
+                    <div class="TercerArticulo__titulos">
+                        <h3>Condiciones</h3>
+                        <p>
+                            Llevando funciones de atención<br> médica premium a tu alcance.
+                        </p>
+                    </div>
+                </div>   
+            </article>
+            <img src="imagenes/appstore.png" alt="" class="appstore">
+            <img src="imagenes/googleplay.png" alt="" class="google">
+       </div>
+   </section>
+   <script>
+       var $modal=document.getElementById("modal");
+       let $hamburguer=document.getElementById("hamburguer");
+       let $modal_img=document.getElementById("modalimg");
+
+       $hamburguer.addEventListener("click", ()=>{
+            $modal.style.display="flex";
+            $modal.style.animation="moverout 1s forwards";
+       })
+
+       $modal_img.addEventListener("click",()=>{
+           $modal.style.animation="moverin 1s forwards";
+           setTimeout(() => {
+                $modal.style.display="none";
+           }, 1000);
+           
+
+       })
+   </script>
 </body>
 </html>
